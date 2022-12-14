@@ -1,0 +1,163 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
+  margin: 29px 34px 96px;
+}
+
+.breadcrumb-text,
+.included {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 33px;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  gap: 51px;
+}
+
+.product-details-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+  width: 650px;
+  height: 600px;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: #c27e7e;
+}
+
+.available-area {
+  display: flex;
+}
+
+.available {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: #69dc33;
+}
+
+.price {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.button {
+  width: 396px;
+  height: 88px;
+  background: #69dc33;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin: 37px 0 41px;
+  border: none;
+  
+}
+a{
+  text-decoration: none;
+}
+
+.details {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #000000;
+}
+
+.description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #000000;
+}
+
+.footer {
+  width: 100%;
+  height: 239px;
+  background: #fed4d4;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  padding: 0 10px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 139px;
+}
+
+.footer-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.footer-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.social-card-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
